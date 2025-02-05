@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <ThemeProvider defaultTheme="dark">
+        <ThemeProvider defaultTheme="dark" >
           <Layout>
             <Routes>
               <Route path="/" element={<WeatherDashboard />} />
